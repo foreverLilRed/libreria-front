@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>libreria-front</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+          tailwind.config = {
+            darkMode: "class",
+            theme: {
+              extend: {
+                "colors": {
+                        "tertiary-fixed-dim": "#e9c176",
+                        "primary-fixed-dim": "#e3beb8",
+                        "on-tertiary-fixed-variant": "#5d4201",
+                        "surface-container-high": "#ebe8e3",
+                        "on-error": "#ffffff",
+                        "primary-fixed": "#ffdad4",
+                        "primary-container": "#5b413c",
+                        "on-tertiary-container": "#d6b067",
+                        "tertiary-container": "#5d4201",
+                        "surface": "#fcf9f4",
+                        "on-primary": "#ffffff",
+                        "secondary": "#75584d",
+                        "error": "#ba1a1a",
+                        "on-surface": "#1c1c19",
+                        "on-error-container": "#93000a",
+                        "surface-variant": "#e5e2dd",
+                        "on-primary-fixed-variant": "#5b403c",
+                        "surface-container-low": "#f6f3ee",
+                        "on-secondary-fixed-variant": "#5b4137",
+                        "inverse-on-surface": "#f3f0eb",
+                        "on-secondary-container": "#795c51",
+                        "outline": "#827470",
+                        "error-container": "#ffdad6",
+                        "primary": "#422b27",
+                        "background": "#fcf9f4",
+                        "surface-container-highest": "#e5e2dd",
+                        "tertiary": "#412d00",
+                        "secondary-fixed": "#ffdbce",
+                        "on-background": "#1c1c19",
+                        "inverse-surface": "#31302d",
+                        "surface-bright": "#fcf9f4",
+                        "on-surface-variant": "#504441",
+                        "on-secondary": "#ffffff",
+                        "surface-tint": "#745853",
+                        "on-tertiary-fixed": "#261900",
+                        "surface-container": "#f0ede8",
+                        "on-primary-container": "#d1ada7",
+                        "inverse-primary": "#e3beb8",
+                        "on-primary-fixed": "#2b1613",
+                        "secondary-container": "#fed7ca",
+                        "secondary-fixed-dim": "#e4beb2",
+                        "surface-dim": "#dcdad5",
+                        "outline-variant": "#d4c3be",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed": "#2b160f",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed": "#ffdea5"
+                },
+                "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                },
+                "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                }
+              },
+            },
+          }
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      .font-manrope { font-family: 'Manrope', sans-serif; }
+      .font-inter { font-family: 'Inter', sans-serif; }
+      body { background-color: #fcf9f4; color: #1c1c19; margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body class="font-inter">
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
